@@ -23,7 +23,7 @@ class Modal extends Component {
   }
 
   render() {
-    const { largeImage } = this.props;
+    const { largeImage, images } = this.props;
     return (
       <Overlay onClick={this.handleOverlayClick}>
         <ModalContent>
